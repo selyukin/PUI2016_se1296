@@ -1,6 +1,8 @@
-HW #2 for PUI2016, Thursday class
+###HW #2 for PUI2016, Thursday class
+
 Author: Sofiya Elyukin, se1296
-Collaborated with Sebastian Bana, Jonathan Geis, Luis Fernando Fernandez,
+
+I collaborated with Sebastian Bana, Jonathan Geis, Luis Fernando Fernandez,
 Ben Alpert, and Mark.
 Sebastian and Fernando walked Jonathan and me through their scripts for the 
 assignments, and we in turn walked Ben and Mark through the script for Assignment 1.
