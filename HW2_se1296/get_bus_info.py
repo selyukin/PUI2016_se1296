@@ -41,7 +41,9 @@ for i in range (0, BusQuantity):
     print ('Bus %s is at latitude %s and longitude %s, %s from %s' % (i, Latitude, Longitude, Distance, Stop))'''
 
 # Create CSV file for Assignment 2 output
-# Code a mixture of PandasDataWrangling from \ https://github.com/fedhere/UInotebooks/blob/master/dataWrangling/PandasDataWrangling-Chap7.ipynb and Sebastian's code. \ The need for an If/Else within the For loop in order to enable an "N/A" value was realized jointly during a discussion with Sebastian, Jonathan, and Fernando.
+''' Code a mixture of PandasDataWrangling from
+https://github.com/fedhere/UInotebooks/blob/master/dataWrangling/PandasDataWrangling-Chap7.ipynb and Sebastian's code.
+The need for an If/Else within the For loop in order to enable an "N/A" value was realized jointly during a discussion with Sebastian, Jonathan, and Fernando.'''
 df = DataFrame(columns=['Latitude', 'Longitude', 'Stop', 'Distance'])
 
 for i in range (0, BusQuantity):
@@ -49,7 +51,8 @@ for i in range (0, BusQuantity):
     df.loc[i, 'Longitude'] = eachBus[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
     if (eachBus[i]['MonitoredVehicleJourney']['OnwardCalls']!={}):
         df.loc[i, 'Stop'] = eachBus[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['StopPointName']
-        df.loc[i, 'Distance'] = eachBus[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances']['PresentableDistance']
+        df.loc[i, 'Distance'] = eachBus[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances'] \
+        ['PresentableDistance']
     else: 
         df.loc[i, 'Stop'] = 'N/A'
         df.loc[i, 'Stop'] = 'N/A'
