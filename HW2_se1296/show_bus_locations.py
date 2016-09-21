@@ -3,8 +3,8 @@
 
 # Python Script for Assignment 1 of HW2.
 
-''' The first three sections are taken from the NYC Weather API example, adjusted for the MTA data parameters.
-https://github.com/fedhere/PUI2016_fb55/blob/master/Lab2_fb55/NYCweatherAPI.py'''
+# The first three sections are taken from the NYC Weather API example, adjusted for the MTA data parameters.
+# https://github.com/fedhere/PUI2016_fb55/blob/master/Lab2_fb55/NYCweatherAPI.py
 
 # 1. Import necessary libraries
 from __future__ import print_function
@@ -22,7 +22,7 @@ response = urllib2.urlopen(url)
 data = response.read().decode("utf-8")
 dataDict = json.loads(data)
 
-#4. Determine the quantity of active buses for the specified line
+# 4. Determine the quantity of active buses for the specified line
 # I got these two lines of code from Sebastian, sbg389
 # (https://github.com/sbg389/PUI2016_sbg389/blob/master/HW2_sbg389/show_bus_locations_sbg389.py).
 # I understood what needed to be done as far as getting to a specific element, but was having trouble
