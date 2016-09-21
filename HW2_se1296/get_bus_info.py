@@ -30,20 +30,21 @@ eachBus = dataDict['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['V
 BusQuantity = len(eachBus)
 
 
-'''# Testing before exporting to CSV
-# 5. Get the detailed location information of each active bus of the given line
+# Testing before exporting to CSV
+# Get the detailed location information of each active bus of the given line
 # Adjusted the code from Assignment 1
-for i in range (0, BusQuantity):
-    Latitude = eachBus[i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
-    Longitude = eachBus[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
-    Stop = eachBus[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['StopPointName']
-    Distance = eachBus[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances']['PresentableDistance']
-    print ('Bus %s is at latitude %s and longitude %s, %s from %s' % (i, Latitude, Longitude, Distance, Stop))'''
+# for i in range (0, BusQuantity):
+#    Latitude = eachBus[i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
+#    Longitude = eachBus[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
+#    Stop = eachBus[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['StopPointName']
+#    Distance = eachBus[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances']['PresentableDistance']
+#    print ('Bus %s is at latitude %s and longitude %s, %s from %s' % (i, Latitude, Longitude, Distance, Stop))
 
-# Create CSV file for Assignment 2 output
-''' Code a mixture of PandasDataWrangling from
-https://github.com/fedhere/UInotebooks/blob/master/dataWrangling/PandasDataWrangling-Chap7.ipynb and Sebastian's code.
-The need for an If/Else within the For loop in order to enable an "N/A" value was realized jointly during a discussion with Sebastian, Jonathan, and Fernando.'''
+# 5. Create CSV file for Assignment 2 output
+# Code is a mixture of PandasDataWrangling from
+# https://github.com/fedhere/UInotebooks/blob/master/dataWrangling/PandasDataWrangling-Chap7.ipynb and Sebastian's code.
+# The need for an If/Else within the For loop in order to enable an "N/A" value was realized jointly during a discussion with
+# Sebastian, Jonathan, and Fernando.
 df = DataFrame(columns=['Latitude', 'Longitude', 'Stop', 'Distance'])
 
 for i in range (0, BusQuantity):

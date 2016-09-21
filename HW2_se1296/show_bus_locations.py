@@ -23,10 +23,10 @@ data = response.read().decode("utf-8")
 dataDict = json.loads(data)
 
 #4. Determine the quantity of active buses for the specified line
-''' I got these two lines of code from Sebastian, sbg389 
-(https://github.com/sbg389/PUI2016_sbg389/blob/master/HW2_sbg389/show_bus_locations_sbg389.py). 
-I understood what needed to be done as far as getting to a specific element, but was having trouble
-getting the correct path through the dictionaries/lists.'''
+# I got these two lines of code from Sebastian, sbg389
+# (https://github.com/sbg389/PUI2016_sbg389/blob/master/HW2_sbg389/show_bus_locations_sbg389.py).
+# I understood what needed to be done as far as getting to a specific element, but was having trouble
+# getting the correct path through the dictionaries/lists.
 trail = dataDict['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'] 
 BusQuantity = len(trail[0]['VehicleActivity'])
 
@@ -34,8 +34,8 @@ print ('Bus Line : %s' %BUS_LINE)
 print ('Number of Active Buses : %s' %BusQuantity)
 
 # 5. Get the location of each active bus of the given line
-''' I knew a for loop was necessary, but again struggled with specifying the correct path to Lat/Lon. Took that from 
-Sebastian's script, but formatted my own print statement.'''
+# I knew a for loop was necessary, but again struggled with specifying the correct path to Lat/Lon.
+#Took that from Sebastian's script, but formatted my own print statement.
 for i in range (0, BusQuantity):
     print ('Bus %s is at latitude %s and longitude %s' % (i, (trail[0]['VehicleActivity'][i]['MonitoredVehicleJourney'] \
 ['VehicleLocation']['Latitude']), (trail[0]['VehicleActivity'][i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude'])))
