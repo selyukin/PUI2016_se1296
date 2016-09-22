@@ -2,11 +2,24 @@
 
 Author: Sofiya Elyukin, se1296
 
-I collaborated with Sebastian Bana, Jonathan Geis, Luis Fernando Fernandez,
-Ben Alpert, and Mark.
-Sebastian and Fernando walked Jonathan and me through their scripts for the 
-assignments, and we in turn walked Ben and Mark through the script for Assignment 1.
+I collaborated with Sebastian Bana, Jonathan Geis, Luis Fernando Melchor 
+Fernandez,Ben Alpert, and Mark (not sure of last name). Actual coding for each
+script here was done individually (but with code borrowing) after a breakdown
+and discussion of a mostly complete script.
 
-I went through actually writing my scripts for Assignments 2 and 3 on my own,
-but took code from the examples provided and from Sebastian's and Fernando's scripts.
-The comments in my scripts specify what sections of code were taken from where. 
+#### Assignment 1
+Sebastian walked Jonathan, Fernando, and me through his script. Jonathan and I
+later did the same for Ben and Mark. Specific instances of code-borrowing for 
+my own script are specified in its comments.
+
+#### Assignment 2
+Sebastian walked Jonathan, Fernando, and me through his script. We then jointly
+refined it, specifically to account for N/A values when retrieving information
+on the next stop. Specific instances of code borrowing for my own script are
+specified in its comments.
+
+#### Assignment 3:
+Fernando walked Sebastian, Jonathan, and me through his (then partial) script,
+and we adjusted it to use the DFDATA environmental variable to retreive the
+CSV file. Specific instances of code borrowing for my own script are specified
+in its comments.
