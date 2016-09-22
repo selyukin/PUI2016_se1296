@@ -3,7 +3,7 @@
 ### Author: Sofiya Elyukin, se1296
 
 I collaborated with Sebastian Bana, Jonathan Geis, Luis Fernando Melchor 
-Fernandez,Ben Alpert, and Mark (not sure of last name). Actual coding for each
+Fernandez, Ben Alpert, and Marc Toneatto. Actual coding for each
 script here was done individually (but with code borrowing) after a breakdown
 and discussion of mostly complete scripts.
 
@@ -13,7 +13,7 @@ data in json format, and then parsed the data to find how many active buses
 there are for a given line and where those buses are located. 
 
 Sebastian walked Jonathan, Fernando, and me through his script. Jonathan and I
-later did the same for Ben and Mark. Specific instances of code-borrowing for 
+later did the same for Ben and Marc. Specific instances of code-borrowing for 
 my own script are specified in its comments.
 
 #### Assignment 2
