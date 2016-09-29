@@ -9,8 +9,9 @@ over the different types of distributions for Assignment 1, and formulated a nul
 hypothesis for Assignment 2. Code for the notebooks for both assignments was taken
 from the examples provided in Professor Bianco's PUI2016 repository. I also looked
 through Sebastian's, Ben's, and Jonathan's codes in attempting to work through 
-Assignment 2. Any specific lines of their code used in my assignment are specified
-within the notebook.
+Assignment 2. Unfortunately it turned out that my problem was with my environmental
+variable, not the code, and I was unable to resolve it in time to submit the
+assignment.
 
 I completed Assignment 3 on my own based on the slides and work done in class.
 
