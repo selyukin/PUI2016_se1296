@@ -12,6 +12,5 @@ Haijun Wang, and Yan Wang, and can be found at http://journals.plos.org/plosone/
 
 | **Statistical Analyses      | IV(s)    | IV type(s)  | DV(s)  | DV type(s)  | Control Var  | Control Var type |  Question to be answered | _H0_ | alpha | link to paper** |
 |:--------------:|:--------------:|:------:|:---------:|:-----------:|:-----------:|:------------:|:------------------:|:-------:|:---------:|:---------|
-Path Analysis  |  maternal death | categorical | annual income, expenditure per capita | continuous | n/a | n/a | How does maternal death impact household economy? |       |     | [Impact of Maternal Death on Household Economy in Rural China: A Prospective
-Path Analysis] (http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134756) |
+Path Analysis  |  maternal death | categorical | annual income, expenditure per capita | continuous | n/a | n/a | How does maternal death impact household economy? |       |     | [Impact of Maternal Death on Household Economy in Rural China: A Prospective Path Analysis] (http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134756) |
  |||||||||||||||||||||
