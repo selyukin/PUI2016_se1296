@@ -3,6 +3,7 @@
 ## Assignment 1: Review of Gregory Mayes Citibike Project Proposal
 
    A copy of my review is located in this directory, and is also located at (https://github.com/gsmayes/PUI2016_gsm317/tree/master/HW3_gsm317). I had walked someone through creating their review md file and creating the pull request, but must have done something wrong when I went through the process myself. When I pushed my .md, I ended up with a copy of Gregory's entire PUI2016 repository in my own PUI2016 repository, and because it wasn't the forked version I could not create a pull request. I couldn't figure out how to get to the forked repository through Jupyter or shell, and so I uploaded my file directly to the forked repository on github.com in order to create the pull request.
+   Update, 10/6/2016 - deleted the clones of gsm317's repo in my own repo.
 
 ## Assignment 2: Literature Choices of Statistical Tests
 
