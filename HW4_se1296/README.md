@@ -1,10 +1,13 @@
 # HW 4
 
 ## Assignment 1: Review of Gregory Mayes Citibike Project Proposal
+
 This assignment is located at (https://github.com/gsmayes/PUI2016_gsm317/tree/master/HW3_gsm317)
 
 ## Assignment 2: Literature Choices of Statistical Tests
-I worked on this assignment with Sebastian Bana. He chose the t-test for differences between groups, and I chose path analysis for relationships between dependent and independent variables. 
+
+I worked on this assignment with Sebastian Bana. He chose the t-test for differences between groups, and I chose path analysis for relationships between dependent and independent variables. The study I chose actually had two path analyses using the same independent variables and mediators, but different dependent variables.
+
 
 | **Statistical Analyses      | IV(s)    | IV type(s)  | DV(s)  | DV type(s)  | Control Var  | Control Var type |  Question to be answered | _H0_ | alpha | link to paper** |
 |:--------------:|:--------------:|:------:|:---------:|:-----------:|:-----------:|:------------:|:------------------:|:-------:|:---------:|:---------|
@@ -14,4 +17,5 @@ Path Analysis (2)  |  **True IV**: maternal death; **Mediators**: direct costs, 
  |||||||||||||||||||||
 
 ## Assignment 3: Reproduce Hard to Employ study
+
 I worked on this assignment with Marc Toneatto and Sebastion Bana. Code is taken from the skeleton notebook provided in the assignment instructions.
