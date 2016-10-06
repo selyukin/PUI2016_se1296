@@ -2,7 +2,7 @@
 
 ## Assignment 1: Review of Gregory Mayes Citibike Project Proposal
 
-This assignment is located at (https://github.com/gsmayes/PUI2016_gsm317/tree/master/HW3_gsm317)
+A copy of my review is located in this directory, and is also located at (https://github.com/gsmayes/PUI2016_gsm317/tree/master/HW3_gsm317)
 
 ## Assignment 2: Literature Choices of Statistical Tests
 
@@ -19,3 +19,7 @@ Path Analysis (2)  |  **True IV**: maternal death; **Mediators**: direct costs, 
 ## Assignment 3: Reproduce Hard to Employ study
 
 I worked on this assignment with Marc Toneatto and Sebastion Bana. Code is taken from the skeleton notebook provided in the assignment instructions.
+
+## Assignment 4: Correlation tests for CitiBike
+
+I worked on this assignment with Marc Toneatto, Sebastian Bana, Jonathan Geis, and Ben Alpert. Code was taken from the skeleton notebook provided in the assignment instructions.
