@@ -2,11 +2,11 @@
 
 ## Assignment 1: Review of Gregory Mayes Citibike Project Proposal
 
-A copy of my review is located in this directory, and is also located at (https://github.com/gsmayes/PUI2016_gsm317/tree/master/HW3_gsm317)
+   A copy of my review is located in this directory, and is also located at (https://github.com/gsmayes/PUI2016_gsm317/tree/master/HW3_gsm317). I had walked someone through creating their review md file and creating the pull request, but must have done something wrong when I went through the process myself. When I pushed my .md, I ended up with a copy of Gregory's entire PUI2016 repository in my own PUI2016 repository, and because it wasn't the forked version I could not create a pull request. I couldn't figure out how to get to the forked repository through Jupyter or shell, and so I uploaded my file directly to the forked repository on github.com in order to create the pull request.
 
 ## Assignment 2: Literature Choices of Statistical Tests
 
-I worked on this assignment with Sebastian Bana. He chose the t-test for differences between groups, and I chose path analysis for relationships between dependent and independent variables. The study I chose actually had two path analyses using the same independent variables and mediators, but different dependent variables.
+   I worked on this assignment with Sebastian Bana. He chose the t-test for differences between groups, and I chose path analysis for relationships between dependent and independent variables. The study I chose actually had two path analyses using the same independent variables and mediators, but different dependent variables.
 
 
 | **Statistical Analyses      | IV(s)    | IV type(s)  | DV(s)  | DV type(s)  | Control Var  | Control Var type |  Question to be answered | _H0_ | alpha | link to paper** |
@@ -18,8 +18,8 @@ Path Analysis (2)  |  **True IV**: maternal death; **Mediators**: direct costs, 
 
 ## Assignment 3: Reproduce Hard to Employ study
 
-I worked on this assignment with Marc Toneatto and Sebastion Bana. Code is taken from the skeleton notebook provided in the assignment instructions.
+   I worked on this assignment with Marc Toneatto and Sebastion Bana. Code is taken from the skeleton notebook provided in the assignment instructions.
 
 ## Assignment 4: Correlation tests for CitiBike
 
-I worked on this assignment with Marc Toneatto, Sebastian Bana, Jonathan Geis, and Ben Alpert. Code was taken from the skeleton notebook provided in the assignment instructions.
+   I worked on the first part of this assignment with Marc Toneatto and Sebastian Bana. The code was taken from the skeleton notebook provided in the assignment instructions. The code for the second and third tests is from Ben Alpert's notebook.
