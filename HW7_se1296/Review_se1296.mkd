@@ -1,0 +1,17 @@
+##Review of the plot made by Elyukin Sofiya (se1296)
+
+The plot I have to revie belong to Elyukin Sofiya (se1296) and it is the following:
+
+![image](HW7_se1296.png)
+
+First of all, I would like to remark that I liked it the idea of the plot.
+
+I would say, it is a clear plot which has no so many elements to distract you. It is very easy to see it as a group, however, if you would like to extract some values from some denses values it would be more difficult. Anyway, the plot convey the information with the purpouse was made.
+
+The plot has all the necessary elements such as title, axis.. However, I would include the units in both axis. It can lead to misinterpretantion. In distance it can be km or miles and in tips it can be any currency. For me , knowing that its NYC i can guess it , but not let forget about a potential reader located in other place.
+
+I would include the green line with its meaning in the legend. I guess that it's the fit line. Also , I would change the plot into rectangular shape to show the real scale . Square shape when units are 10 and 8 doesn't reflect that.
+
+Lastly , although that is not as important the color blue agains the dots in some points make it a little difusse, specially when the dots are dense. In general , it will be ok, but i am color blind in green so in that area make a odd effect.
+
+In general, it is a great well though plot.
