@@ -5,4 +5,4 @@ Use Geopandas and shapely to load a shapefile of NYC census tracts, create a poi
 I completed this assignment using the instruction notebook, my code from homework 10, and help from Scott Smith.
 
 ## Assignment 2
-I collaborated with Ben Alpert, Tyler Woebkenberg, Bailey Griswold, Jonathan Geis, Sebastian Bana, Scott Smith, and Luis Fernando Melchor Fernandez.
+I collaborated with Ben Alpert, Tyler Woebkenberg, Bailey Griswold, Jonathan Geis, Sebastian Bana, Scott Smith, and Luis Fernando Melchor Fernandez on the first portion, found k-means clusters on my own, and then used Ben Alpert's code for the remainder.
